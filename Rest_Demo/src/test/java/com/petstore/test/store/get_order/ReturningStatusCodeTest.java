@@ -17,7 +17,7 @@ public class ReturningStatusCodeTest {
     @BeforeClass
     public void setRequestSpec(){
         RequestSpecification requestSpec = new RequestSpecBuilder()
-                .setBaseUri("http://192.168.99.100/")
+                .setBaseUri("http://35.224.235.72:8080/")
                 .setPort(8080)
                 .setBasePath("api/v3/store/order")
                 .setAccept(ContentType.JSON)
