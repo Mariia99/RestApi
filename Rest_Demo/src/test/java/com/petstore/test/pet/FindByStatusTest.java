@@ -14,7 +14,7 @@ import static io.restassured.RestAssured.given;
 import static org.apache.commons.lang3.RandomStringUtils.randomAlphabetic;
 
 public class FindByStatusTest {
-    public static final String URI = "http://192.168.99.100:8080";
+    public static final String URI = "http://35.224.235.72:8080";
 
     @Test
     void testContentType() {
